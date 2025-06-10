@@ -1,0 +1,32 @@
+<div class="social-icons">
+  <a href="https://instagram.com/96kabhi2121" target="_blank" aria-label="Instagram">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+  </a>
+  <a href="https://www.snapchat.com/add/abhi.j8888" target="_blank" aria-label="Snapchat">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/snapchat.svg" alt="Snapchat" />
+  </a>
+</div>
+/* Social Media Icons */
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+  filter: invert(82%) sepia(85%) saturate(749%) hue-rotate(0deg) brightness(95%) contrast(105%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+  filter: invert(100%) sepia(0%) saturate(0%) brightness(150%);
+}
+/project-folder
+├── index.html          ✅ Your main webpage
+├── style.css           ✅ All styling
+├── logo.png            ✅ Your luxury AJ logo
+├── your-photo.jpeg     ✅ Your profile picture
